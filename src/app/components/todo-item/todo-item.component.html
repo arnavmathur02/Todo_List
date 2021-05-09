@@ -1,0 +1,15 @@
+<!-- <div class="my-3">
+    <h5>{{todo.title}}</h5>
+    <p>{{todo.desc}}</p>
+    <button class="btn btn-sm btn-danger" (click)="onDelete(todo)">Delete</button>
+</div> -->
+
+<div class="col-sm-6 my-3">
+    <div class="card border-dark bg-light" style="width: 18rem;">
+        <div class="card-header">{{todo.title}}</div>
+        <div class="card-body">
+            <p class="card-text">{{todo.desc}}</p>
+        </div>
+        <button class="btn btn-sm btn-danger" (click)="onDelete(todo)">Delete</button>
+    </div>
+</div>

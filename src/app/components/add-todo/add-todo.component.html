@@ -1,0 +1,17 @@
+<h4 class="text-center">Have something on your mind.... Write it down!</h4>
+
+<div class="my-3">
+<form (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="title">Add a Heading!</label>
+      <input type="text" class="form-control" id="title" name="title" [(ngModel)]="title" >
+    </div>
+
+    <div class="form-group">
+      <label for="desc">Add the details!</label>
+      <input type="text" class="form-control" id="desc" name="desc" [(ngModel)]="desc">
+    </div>
+
+    <button type="submit" class="btn btn-primary btn-sm">Add</button>
+  </form>
+</div>
